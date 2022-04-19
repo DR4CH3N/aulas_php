@@ -1,2 +1,2 @@
 # aulas_php
- atividades e codigos desenvolvidos nas aulas de PHP
+ atividades e exercicios desenvolvidos nas aulas de PHP
