@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario e PHP</title>
+</head>
+<body>
+    <h1>Exercicio 06 - Formulario</h1>
+    <hr>
+    
+    <form action="06-exercicio.php" method="post">
+        <p>
+            <label for="text">Nome do produto:</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+
+        <div>
+            <p>Marcas: <br></p>
+      
+        <!-- <input type="checkbox" name="marcas[]" id="apple" value="apple">
+        <label for="html">Apple</label>
+
+        <input type="checkbox" name="marcas[]" id="samsung" value="samsung">
+        <label for="html">Samsung</label>
+
+        <input type="checkbox" name="marcas[]" id="lg" value="lg">
+        <label for="html">LG</label>
+
+        <input type="checkbox" name="marcas[]" id="xiaomi" value="xiaomi">
+        <label for="html">Xiaomi</label>
+
+        </div> -->
+
+        <select name="marcas" id="marcas">
+            <option value=""></option>
+            <option value="Apple">Apple</option>
+            <option value="xiaomi">Xiaomi</option>
+            <option value="lg">LG</option>
+            <option value="samsung">Samsung</option>
+        </select>
+
+        <p>
+            <label for="preco">Preço do produto:</label>
+            <input class="money" type="number" name="preco" id="preco" min="100" max="10000" 
+            step="0.01">
+        </p>
+
+
+        <p>
+            <label for="descricao">Descrição:</label><br>
+            <textarea name="descricao" id="descricao" cols="30" rows="6"></textarea>
+        </p>
+
+        <button type="submit" name="enviar">Enviar dados</button>
+    </form>
+
+   <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.mask.min.js"></script>
+    <script>
+        $('.money').mask('000.000.000.000.000,00', {reverse: true});
+    </script> -->
+</body>
+</html>
