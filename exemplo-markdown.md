@@ -52,6 +52,6 @@ CTRL + espaço tambem serve para localizar arquivos na pasta
 
 ### lista de tarefas
 
-- [] briefing
+- [ ] briefing
 - [x] rascunhos
-- [] design
+- [ ] design
