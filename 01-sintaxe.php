@@ -16,6 +16,7 @@
     <?php
     echo "Amanha tem corithians e palmeiras!";
     echo "<h2>Gerando <span class='destaque'>HTML</span> atraves do PHP.</h2>";
+    echo "Olá github :D";
     ?>
 </body>
 </html>
