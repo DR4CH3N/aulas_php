@@ -43,5 +43,15 @@ echo $aluno;
 $aluno = "roberto";
 echo $aluno;
 ```
-## imagens
 
+## imagens
+![logotipo PHP](php-logo.png)
+CTRL + espaço tambem serve para localizar arquivos na pasta
+
+## caixas de seleção
+
+### lista de tarefas
+
+- [] briefing
+- [x] rascunhos
+- [] design
