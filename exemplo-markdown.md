@@ -55,3 +55,17 @@ CTRL + espaço tambem serve para localizar arquivos na pasta
 - [ ] briefing
 - [x] rascunhos
 - [ ] design
+
+(caso quiser criar uma caixa vazia, coloque um espaço entre os colchetes)
+
+## Tabelas
+
+Cliente |   Idade   |   Cidade  
+---     |   ---     |   ---
+joão    |   25      |   São paulo
+maria   |   10      |   Rio de janeiro
+
+## emotecon
+:heart:
+:star:
+:wolf:
